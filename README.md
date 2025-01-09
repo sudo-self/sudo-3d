@@ -1,17 +1,19 @@
 # Wellcome to sudo-3d scene setup script 
 
-## install locally
+## install global
 
 ```sh
-npm i sudo-3d
+ npm install -g sudo-3d
 ```
+
 The script will prompt for the URL to your .glb file 
 and if no URL will use the default
 then start a local dev server
 
 ```sh
-npx vite
+npx sudo-3d
 ```
+
 ### Project setup is deployment ready 
 ```sh
 cd sudo-3d
