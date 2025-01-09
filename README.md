@@ -1,4 +1,4 @@
-# Wellcome to sudo-3d scene setup script 
+# Wellcome to sudo-3d scene setup<a href="https://www.npmjs.com/package/sudo-3d">npm i sudo-3d</a><hr>
 
 ## install global
 
