@@ -5,7 +5,7 @@
 ```sh
 npm i sudo-3d
 ```
-## run intantly with npx
+## run with npx
 
 ```sh
 npx sudo-3d
