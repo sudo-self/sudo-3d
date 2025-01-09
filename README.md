@@ -1,14 +1,24 @@
 # Wellcome to three.js scene script 
 
+## install with npm
+
 ```sh
-npx i sudo-3d
+npm i sudo-3d
+```
+## run intantly with npx
+
+```sh
+npx sudo-3d
 ```
 The script will prompt for the URL to your .glb file 
 and if no URL will use the default
 then start a local dev server
 
+## curl
+
 ```sh
-npx vite
+curl -L https://registry.npmjs.org/sudo-3d/-/sudo-3d-9.0.0.tgz | tar -xz && cd package && npm install
+
 ```
 ### Project setup is deployment ready 
 ```sh
