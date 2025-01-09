@@ -1,14 +1,17 @@
 {
   "name": "sudo-3d",
-  "version": "1.0.0",
+  "version": "9.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "bin": {
+    "sudo-3d": "./3d.sh"
+  },
+  "keywords": ["3d", "three.js", "bash"],
+  "author": "sudo-self",
   "license": "ISC",
-  "description": "",
+  "description": "A 3D tool powered by Three.js and bash",
   "dependencies": {
     "three": "^0.172.0"
   },
@@ -18,3 +21,4 @@
     "vite": "^6.0.7"
   }
 }
+
