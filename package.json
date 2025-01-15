@@ -1,6 +1,6 @@
 {
   "name": "sudo-3d",
-  "version": "9.0.0",
+  "version": "10.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +19,17 @@
     "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-node-resolve": "^16.0.0",
     "vite": "^6.0.7"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-self/sudo-3d.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sudo-self/sudo-3d/issues"
+  },
+  "homepage": "https://github.com/sudo-self/sudo-3d#readme"
 }
 
