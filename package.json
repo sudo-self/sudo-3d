@@ -1,14 +1,18 @@
 {
-  "name": "sudo-3d",
+  "name": "@sudo-self/sudo-3d",
   "version": "10.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "sudo-3d": "./3d.sh"
+    "sudo-3d": "3d.sh"
   },
-  "keywords": ["3d", "three.js", "bash"],
+  "keywords": [
+    "3d",
+    "three.js",
+    "bash"
+  ],
   "author": "sudo-self",
   "license": "ISC",
   "description": "A 3D tool powered by Three.js and bash",
@@ -32,4 +36,3 @@
   },
   "homepage": "https://github.com/sudo-self/sudo-3d#readme"
 }
-
